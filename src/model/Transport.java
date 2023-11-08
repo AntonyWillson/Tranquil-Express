@@ -2,7 +2,7 @@ package model;
 
 public abstract class Transport {
 	protected int jarak;
-	public int tarif;
+	protected int tarif;
 	public Transport(int jarak, int tarif) {
 		super();
 		this.jarak = jarak;
